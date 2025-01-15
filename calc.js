@@ -18,6 +18,7 @@ document.getElementById('t4').addEventListener('click', () => {
       break;
     case 3:
       resultElement.textContent = `Result: ${addition(num1, num2)}`;
+      break;
     default:
       resultElement.textContent = "Invalid choice";
   }
