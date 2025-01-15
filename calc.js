@@ -1,11 +1,11 @@
 import { subtraction } from './subtraction.js';
 
-document.getElementById('calculate').addEventListener('click', () => {
-  const num1 = Number(document.getElementById('num1').value);
-  const num2 = Number(document.getElementById('num2').value);
-  const ch = Number(document.getElementById('choice').value);
+document.getElementById('t4').addEventListener('click', () => {
+  const num1 = Number(document.getElementById('t1').value);
+  const num2 = Number(document.getElementById('t2').value);
+  const ch = Number(document.getElementById('t3').value);
 
-  const resultElement = document.getElementById('result');
+  const resultElement = document.getElementById('t5');
 
   switch (ch) {
     case 1:
