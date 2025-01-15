@@ -1,5 +1,6 @@
 import { subtraction } from './subtraction.js';
 import { multiplication } from './multiplication.js';
+import { addition } from './addition.js';
 
 document.getElementById('t4').addEventListener('click', () => {
   const num1 = Number(document.getElementById('t1').value);
@@ -15,6 +16,8 @@ document.getElementById('t4').addEventListener('click', () => {
     case 2:
       resultElement.textContent = `Result: ${multiplication(num1, num2)}`;
       break;
+    case 3:
+      resultElement.textContent = `Result: ${addition(num1, num2)}`;
     default:
       resultElement.textContent = "Invalid choice";
   }
