@@ -14,6 +14,7 @@ document.getElementById('t4').addEventListener('click', () => {
       break;
     case 2:
       resultElement.textContent = `Result: ${multiplication(num1, num2)}`;
+      break;
     default:
       resultElement.textContent = "Invalid choice";
   }
