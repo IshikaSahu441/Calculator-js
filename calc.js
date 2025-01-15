@@ -25,7 +25,7 @@ document.getElementById('t4').addEventListener('click', () => {
       resultElement.textContent = `Result: ${division(num1, num2)}`;
       break;
     case 5:
-      resultElement.textContent = `Result: ${division(num1, num2)}`;
+      resultElement.textContent = `Result: ${modulus(num1, num2)}`;
       break;
     default:
       resultElement.textContent = "Invalid choice";
